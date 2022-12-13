@@ -28,7 +28,7 @@ import image1 from "../images/Frame 1.jpg";
 const imageAltText1 = "Project 1";
 
 // 3rd image
-import image2 from "../images/Frame 2.jpg";
+import image2 from "../images/Frame2.jpg";
 const imageAltText2 = "Project 1";
 
 // image 4
@@ -113,9 +113,6 @@ const Portfolio = () => {
             alt={imageAltText1}
           />
         </div>
-
-
-
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
